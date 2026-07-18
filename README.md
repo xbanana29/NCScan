@@ -55,7 +55,7 @@ Pengaturan → matikan **Upload ke Nextcloud** → setelah scan cukup isi prefix
 Butuh JDK 17 dan Android SDK (platform 36).
 
 ```
-git clone https://github.com/nikokevin29/NCScan.git
+git clone https://github.com/xbanana29/NCScan.git
 cd NCScan
 ./gradlew assembleDebug
 # APK: app/build/outputs/apk/debug/app-debug.apk
