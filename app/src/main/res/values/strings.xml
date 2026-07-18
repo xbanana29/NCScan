@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NC Scan</string>
+    <string name="scan">Scan Dokumen</string>
+    <string name="settings">Pengaturan</string>
+    <string name="ready">Siap memindai</string>
+    <string name="processing">Memproses %1$d halaman…</string>
+    <string name="queued">Antre upload (%1$d KB) — menunggu koneksi</string>
+    <string name="uploading">Mengunggah… (%1$d KB)</string>
+    <string name="uploaded">Terunggah ✓ %1$s (%2$d KB)</string>
+    <string name="upload_failed">Upload gagal — periksa server/kredensial di Pengaturan</string>
+    <string name="upload_failed_code">Upload gagal (HTTP %1$d) — 401: app password salah · 404: folder/URL salah</string>
+    <string name="pdf_failed">Gagal membuat PDF: %1$s</string>
+    <string name="ocr_skipped">OCR dilewati (model belum terunduh — perlu internet sekali)</string>
+    <string name="scanner_unavailable">Scanner tidak tersedia: %1$s</string>
+    <string name="saved">Tersimpan</string>
+    <string name="invalid_url">URL server harus diawali http:// atau https://</string>
+    <string name="hint_server">URL server (https://cloud.contoh.id)</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">App password Nextcloud</string>
+    <string name="hint_folder">Folder tujuan (mis. Scans)</string>
+    <string name="label_quality">Kualitas kompresi</string>
+    <string name="label_grayscale">Grayscale default</string>
+    <string name="label_self_signed">Terima self-signed certificate</string>
+    <string name="save">Simpan</string>
+    <string name="folder_pick_at">Folder: %1$s</string>
+    <string name="folder_up">⬅ .. (naik)</string>
+    <string name="folder_new">➕ Folder baru…</string>
+    <string name="folder_new_title">Nama folder baru</string>
+    <string name="upload_here">Upload di sini</string>
+    <string name="upload">Upload</string>
+    <string name="prefix_title">Prefix nama file</string>
+    <string name="prefix_note">Wajib diisi — biasanya nama toko/perusahaan pada nota. Hasil: PREFIX_18-07-2026_17-30-00.pdf</string>
+    <string name="prefix_hint">mis. TOKO MAJU JAYA</string>
+    <string name="prefix_required">Prefix wajib diisi</string>
+    <string name="label_use_nextcloud">Upload ke Nextcloud</string>
+    <string name="nc_required">Lengkapi URL server, username, dan app password</string>
+    <string name="shared_ready">Dibagikan: %1$s (%2$d KB)</string>
+    <string name="history_label">Riwayat upload</string>
+    <string name="loading_folders">Memuat daftar folder…</string>
+    <string name="awaiting_choice">Menunggu pilihan folder &amp; prefix — jangan tutup app dulu</string>
+    <string-array name="quality_options">
+        <item>Rendah (~60 KB/hal)</item>
+        <item>Sedang (~120 KB/hal)</item>
+        <item>Tinggi (~250 KB/hal)</item>
+    </string-array>
+</resources>
